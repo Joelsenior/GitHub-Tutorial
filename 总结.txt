@@ -1,0 +1,19 @@
+#本地和github交互
+
+一、本地新建文件夹
+  git init
+  
+二、 本地clone 
+  git clone “ssl的链接”
+  
+三、本地改动push到github 
+  1.本地的所有改动必须通过git add 和 git commit 提交到本地仓库
+  1.1 git add 可以add 某个文件夹/文件 也可以git add .(所有) 
+  1.2 git commit实际是为本次版本做一个注释，便于后面查看更改的内容。
+  2.提交后，如果要提交到github，必须通过git push origin main
+  2.1 如果是分支，就是 git push origin xxx分支
+  
+四、github改动pull到本地
+  git pull origin main
+  
+
